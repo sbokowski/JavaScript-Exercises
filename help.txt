@@ -5,8 +5,8 @@ live server
 open with live server
  - in vs code you save edits / page edit 
 
-Hero  patterns  
-collection of repeatable svg
+Hero  patterns  : 
+a collection of repeatable svg
 bg patterns to use on sites
 clik on one, chose one , change 
 background , foreegrond  , opacity 
