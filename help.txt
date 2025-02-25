@@ -1,0 +1,101 @@
+Quote generator  
+live server 
+- in vs code changes to edits automatic change 
+
+open with live server
+ - in vs code you save edits / page edit 
+
+Hero  patterns  
+collection of repeatable svg
+bg patterns to use on sites
+clik on one, chose one , change 
+background , foreegrond  , opacity 
+blackk / white / o.o8 opacity
+then: 
+copy code / paste in css file in body tag
+
+Get font for project ,
+ montserraut 
+Paste code into css file @import , in index.html
+font weight of 700 , display flex 
+center everything - use display flex
+
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+body will be some flex box for quote
+  centered :
+  horizonal axis  and vertical axis
+
+Style the css code:
+add a box shadow,  edit the text
+add 2.75 rem for  font size
+
+On mobile device alway have a margin on left 
+and right for spacing 
+Add some margin for media query 
+adjust font smaller for tablet sise
+ 
+Edit the buttons for twitter , add some hover
+effects 
+
+Javascript button
+Get randow quotes from external or locally 
+
+API key in javascript
+ - like in other programming environments, 
+ serves as a unique id  that authenticates a 
+ request to an application programming  interface.
+  its essentialy a key that grants access to 
+  specific functionalities or datal.....
+
+Allrigt, so the goal of this video it to 
+popluate / UI  quote, text. 
+
+Maker sure your id match / one is js file
+
+Okay , lets jump back to  our HTML , remove
+budha quote and autor, edit ,so they wil be 
+dynanmically added in our JS 
+
+/// PLEASE TAKE NOTES , so you dont get bored
+
+jump back to our js file 
+save that now 
+
+close the quote folder , dont need to modify
+this.
+
+Set up to use local foldersd , own scripts 
+for setup of getting quotes. 
+
+Coooool, working - getting local quotes for js file, 
+while doing project, dont skip around , you may miss
+something in project.
+
+Works , twitter -button not working , 
+
+See you then , bye for now. 
+
+vh in html css
+ Viewport Height (vh) ... The vh unit is relative to 1% of 
+ the viewport's height, making it useful for setting
+  sizes based on the height of the .
+
+Create a loader with JS , add some html to page and
+edit css file for styles, 
+
+Loader with JS
+Next we go to our JS file to edit , create a const\
+for our loader
+
+Nect were going to need to create a loading function
+and complete function, to show what  we 
+are loading , create a hide and show
+
+To test this , we will go to the bottom comment out
+getQuote , make sure the loader works
+ 
+Something not working???? Loader and spin didnt work.
