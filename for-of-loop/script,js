@@ -1,0 +1,82 @@
+// Exercise 
+// JavaScript; 0
+//  
+// In JavaScript, loops allow you to repeat a block
+// of code multiple times with out haveing to
+// writ the same instruction over and over.
+//
+// Intro for of 
+// 
+
+// Unlike a for loop , which is commonly used when
+// you know how many time you want to repeat 
+// something , a while loop continues running as
+// long as a specified condition is true
+// 
+//  
+// 
+// Understanding for of
+// 
+// 
+// A simple example
+//
+ 
+let subreddits = [ 'soccer', 'popheads', 'cringe', 'books' ];
+// With a standard for loop
+ // 3 part calculation 
+for (let i = 0; i < subreddits.length; i++) {
+	console.log(subreddits[i]);
+}
+
+// for items in array -related item in 
+let yourItem = ['grocery', 'bags', 'delivery', 'store' ];
+// 
+
+// your version 
+// this is standard for loop , we can break it down
+// there are 3 parts inside the parenthesis - 3 parts
+// for (let i = 0; i < yourItem.length; i++ )
+//
+// part : let i = 0  , start at zero
+// for (let i = 0; 
+// part :  i <   continue while i is less than the item length  ....  
+//  i < yourItem.length;
+ // part: increase j++ by one 
+//   j++ 
+ // start at zero , continue while is less than the 
+ // item length , increase by one 
+
+//Much cleaner  with a for...of loop!
+for (let sub of subreddits) {
+	console.log(sub);
+}
+// 
+//Works with other iterables, like strings!
+// this prints out cockadooledoo line by line in upper case
+for (let char of 'cockadoodledoo') {
+	console.log(char.toUpperCase());
+}
+
+// we create an array callled subcredits with  4 related items
+//  shoes , sneakers , ties, pants. 
+// build an array called subcredit with 
+// contains for strings  soccer , popheads , cringe , books
+// the array
+let subcredits = [ 'soccer', 'popheads', 'cring', 'books'];
+console.log(subcredits);
+
+// in javascript i in  let i = 0 is simply 
+// varialbe used as a counter or index .
+// 
+// it doesnt have any special meaning to JS
+// . Prgrammers commonly use i as shothand for
+// index. 
+ const fruits = ['apple', 'bannana', 'cherios'];
+
+ for (let i = 0; i < fruits.length; i++) {
+	console.log(fruits[i]);
+ } 
+
+ // Okay. we have this array called fruits 
+ // with some strings related in some  using
+ // regular for loop 
